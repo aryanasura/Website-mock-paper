@@ -1,7 +1,6 @@
 # Online Quiz
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
-## Functions
-### Admin
+
+## Admin
 - Create Admin account using command
 ```
 py manage.py createsuperuser
@@ -14,7 +13,7 @@ py manage.py createsuperuser
 - Can Add Questions To Respective Courses With Options, Correct Answer, And Marks.
 - Can View And Delete Questions Too.
 
-### Teacher
+## Teacher
 - Apply for job in System. Then Login (Approval required by system admin, Then only teacher can login).
 - After Login, can see Total Number Of Student, Course, Questions are there in system on Dashboard.
 - Can Add, View, Delete Course/Exams.
@@ -22,7 +21,7 @@ py manage.py createsuperuser
 - Can View And Delete Questions Too.
 > **_NOTE:_**  Basically Admin Will Hire Teachers To Manage Courses and Questions.
 
-### Student
+## Student
 - Create account (No Approval Required By Admin, Can Login After Signup)
 - After Login, Can See How Many Courses/Exam And Questions Are There In System On Dashboard.
 - Can Give Exam Any Time, There Is No Limit On Number Of Attempt.
